@@ -1,1 +1,0 @@
-OnChanges-textbox changes :calls :setuser method ,SetName method
