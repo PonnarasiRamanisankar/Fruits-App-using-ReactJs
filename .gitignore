@@ -5,8 +5,7 @@
 !*/
 
 # Allow only required files
-!src/App.jsx
-!src/BookStore.jsx
+ 
 
 # Allow gitignore itself
 !.gitignore
