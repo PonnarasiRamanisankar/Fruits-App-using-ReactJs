@@ -1,12 +1,22 @@
 import React from "react";
-import BookStore from "./BookStore";
-import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NavBar from "./NavBar";
+import Home from "./Home";
+import Apple from "./Apple";
+import Mango from "./Mango";
+import Watermelon from "./Watermelon";
 
 function App() {
   return (
-    <div className="app-container">
-      <BookStore />
-    </div>
+    <Router>
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/apple" element={<Apple />} />
+        <Route path="/mango" element={<Mango />} />
+        <Route path="/watermelon" element={<Watermelon />} />
+      </Routes>
+    </Router>
   );
 }
 
