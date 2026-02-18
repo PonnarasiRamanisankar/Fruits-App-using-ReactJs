@@ -1,11 +1,8 @@
-import React from "react";
-import "./App.css";
-
 function Home() {
   return (
-    <div className="centered-container">
-      <h1>Welcome to Fruits App 🍎🥭🍉</h1>
-      <p>Select a fruit from the navbar above to see details.</p>
+    <div style={{ textAlign: "center", padding: "40px" }}>
+      <h1>Welcome to Fruit World 🍉</h1>
+      <p>Select a fruit from the menu</p>
     </div>
   );
 }
